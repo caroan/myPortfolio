@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<LinearLayout 
+		android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+<!-- 	    <Button 
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:id="@+id/btn_finish"
+	        android:text="나가기"/>
+ -->	         
+	    <Button 
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:id="@+id/btn_resetip"
+	        android:text="IP재설정"/>
+	    
+		<Spinner 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:id="@+id/spin_showpdf" />
+		<Button 
+	    	android:layout_width="0dp"
+	        android:layout_height="wrap_content" 
+	        android:layout_weight="1"
+	        android:text="FAQ"
+	        android:id="@+id/btn_gofag" />
+	</LinearLayout>       	
+	
+</LinearLayout>

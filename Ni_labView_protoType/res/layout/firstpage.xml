@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<ImageView 
+   		android:layout_width="fill_parent"
+   		android:layout_height="fill_parent"
+   		android:id="@+id/first_page"
+   		android:src="@drawable/init"
+   		android:adjustViewBounds="true"
+   		android:background="#ffffffff"/>
+ 	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical">
+	    <TextView 
+	        android:layout_width="fill_parent"
+		    android:layout_height="0px"
+		    android:layout_weight="1.5"/>
+		
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="0px"
+		    android:layout_weight="1"
+		    android:orientation="horizontal"
+		    android:gravity="center_horizontal">
+		    <Button 
+		        android:layout_marginRight="20dp"
+		        android:layout_width="100dp"
+		        android:layout_height="100dp"
+		        android:background="@drawable/doc_btn_graphconnect"
+		        android:id="@+id/graph_connect"/>
+		    <Button 
+		        android:layout_marginLeft="20dp"
+		        android:layout_width="100dp"
+		        android:layout_height="100dp"
+		        android:background="@drawable/doc_btn_machineinfo"
+		        android:id="@+id/machine_info"/>
+		</LinearLayout>
+ 	</LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:id="@+id/txtview_graphname"
+	    android:text="이미지를 좌우로 움직이실수 있습니다."/>
+	<ImageView 
+	    android:id="@+id/imageview_showgraph"
+	    android:layout_width="fill_parent"
+	    android:layout_height="300dp"
+	    android:background="#ffff00ff"
+   		android:adjustViewBounds="true"
+   		android:scaleType="matrix" />
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    <Button 
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="배율 맞추기"
+	        android:layout_weight="1"
+	       	android:id="@+id/btn_adjustview"/>
+	    <Button 
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="확대"
+	        android:layout_weight="1"
+	        android:id="@+id/btn_expandgraph"/>
+	    <Button 
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:text="축소"
+	        android:layout_weight="1"
+	        android:id="@+id/btn_reducegraph"/>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:id="@+id/top_ad"/>
+
+<!--상단 버튼 부분-->
+        <LinearLayout 
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button 
+                android:layout_marginTop="0px" 
+                android:layout_width="0px"
+                android:layout_marginBottom="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="All Hold"
+                android:id="@+id/allholdbtn"/>
+            <Button
+                android:layout_marginTop="0px" 
+                android:layout_marginBottom="0px"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="All UnHold"
+                android:id="@+id/allunholdbtn"/>
+        </LinearLayout>
+        
+<!--중단 게임 뷰 부분-->
+        <game.PushPangProto.PushPangGameLayout
+            android:layout_marginTop="0px"
+            android:background="#ffffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:id="@+id/whole_gameview">
+            
+        </game.PushPangProto.PushPangGameLayout>
+
+<!--하단 버튼 부분-->        
+        <LinearLayout 
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button 
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Hold"
+                android:id="@+id/holdbtn"/>
+            <Button 
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="UnHold"
+                android:id="@+id/unholdbtn"/>
+        </LinearLayout>
+        
+        <ImageView 
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:id="@+id/bottom_ad"/>
+        
+    </LinearLayout>
+    
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/init_image"
+        android:src="@drawable/ppstart_back_pushpangstartbackground"
+        android:scaleType="fitXY" />
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:src="@drawable/ppstart_logo_pushpanlogo"
+        android:scaleType="centerInside"
+        android:layout_weight="1" />
+        <LinearLayout 
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:id="@+id/linearlayout_initgame">
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

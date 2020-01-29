@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="labview_pdf">
+    	<item>PDF</item>
+    	<item>labview01</item>
+    	<item>labview02</item>
+    	<item>labview03</item>
+    	<item>labview04</item>
+    	<item>labview05</item>
+    	<item>labview06</item>
+    	<item>labview07</item>
+    	<item>labview08</item>
+    	<item>labview09</item>
+    	<item>labview10</item>
+    	<item>labview11</item>
+    	<item>labview12</item>
+    	<item>labview13</item>
+    	<item>labview14</item>
+    	<item>labview15</item>
+    	<item>labview16</item>
+    	<item>labview17</item>
+    	<item>labview18</item>
+    	<item>labview19</item>
+    	
+	</string-array>
+	
+        <string-array name="sample_pdf">
+    	<item>PDF</item>
+    	<item>sample01</item>
+    	<item>sample02</item>
+    	<item>sample03</item>
+    	<item>sample04</item>
+    	<item>sample05</item>
+    	<item>sample06</item>
+    	<item>sample07</item>
+    	<item>sample08</item>
+    	<item>sample09</item>
+    	<item>sample10</item>
+    	<item>sample11</item>
+    	<item>sample12</item>
+    	<item>sample13</item>
+    	<item>sample14</item>
+    	<item>sample15</item>
+    	<item>sample16</item>
+    	<item>sample17</item>
+    	<item>sample18</item>
+    	<item>sample19</item>
+    	
+	</string-array>
+
+</resources>
